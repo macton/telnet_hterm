@@ -3,6 +3,9 @@ telnet_hterm
 
 Telnet Client (uses chromium-hterm)
 
+How to install:
+http://developer.chrome.com/extensions/getstarted.html#unpacked
+
 History
 ------------
 0.1.0.0
