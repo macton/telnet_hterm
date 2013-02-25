@@ -1,0 +1,28 @@
+{
+  "minimum_chrome_version": "23",
+  "manifest_version": 2,
+  "name": "Telnet Client (hterm)",
+  "version": "0.1.0.0",
+  "default_locale": "en",
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "description": "Telnet Client (hterm)",
+  "offline_enabled": true,
+  "permissions": [
+    "clipboardRead",
+    "clipboardWrite",
+    "unlimitedStorage",
+    "storage",
+    "experimental",
+    {"socket": [
+      "tcp-connect:*:*"
+    ]}
+  ],
+  "app": {
+    "background": {
+      "scripts": ["launch.js"],
+      "transient": true
+    }
+  }
+}
